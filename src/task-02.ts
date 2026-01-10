@@ -8,3 +8,4 @@ interface ConvertCurrencyParams {
 function convertCurrency({ amount, currency }: ConvertCurrencyParams) {
   console.log(`Converting ${amount} to ${currency}`);
 }
+convertCurrency({amount: 5, currency: "USD"});
